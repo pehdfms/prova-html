@@ -2,3 +2,52 @@
     margin: 0;
     padding: 0;
 }
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeader {
+    gap: 2rem;
+
+    background-color: #eee;
+    height: 15vh;
+
+    font-size: 2vw;
+    padding: 0rem 3rem;
+}
+
+.forceLeft {
+    margin-right: auto;
+}
+
+.landing {
+    height: 85vh;
+
+    background-image:
+        linear-gradient(to bottom, rgba(155, 132, 12, 0.5), rgba(0, 0, 0, 0.3)),
+        url("landing-bg.jpg");
+    background-size: cover;
+
+    font-size: 2.5vw;
+    color: white;
+}
+
+.mainFooter {
+    height: 15vh;
+}
