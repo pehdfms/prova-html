@@ -22,6 +22,13 @@ a {
     align-items: center;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .mainHeader {
     gap: 2rem;
 
@@ -50,4 +57,22 @@ a {
 
 .mainFooter {
     height: 15vh;
+    gap: 2rem;
+
+    background-color: #eee;
+    font-size: 1.5vw;
+    padding: 2rem;
+}
+
+.footerInfo {
+    width: 100%;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+}
+
+.socialMedia {
+    gap: 1rem;
 }
